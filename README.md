@@ -17,7 +17,7 @@ docker-compose version 1.25.4, build 8d51620a
 ```
 
 ## Usage
-※Docker環境構築済みの想定です。
+※ローカル環境でDockerが使用できる前提です。
 
 1. `Dockerfile` と `docker-compose.yml` を配置したディレクトリで `docker-compose` のビルドと実行
 ```bash
