@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  mailcatcher:
+    container_name: docker_mailcatcher
+    build:
+      context: .
+    ports:
+      - "1025:1025"
+      - "1080:1080"
+    environment:
+      TZ: Asia/Tokyo
+    tty: true
